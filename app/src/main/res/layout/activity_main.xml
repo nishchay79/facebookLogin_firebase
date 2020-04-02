@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="266dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="425dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="60dp"/>
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="143dp"
+        android:layout_height="156dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="130dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/text_user"
+        android:layout_width="214dp"
+        android:layout_height="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="326dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="80dp"/>
+
+</RelativeLayout>
